@@ -42,12 +42,12 @@ echo "  [OK] Package files extracted successfully."
 
 # 4. Verification
 echo "[4/4] Verifying engine components..."
-node "$SKILL_DIR/bin/archify.mjs" doctor > /dev/null 2>&1
+node "$SKILL_DIR/bin/process-architect.mjs" doctor > /dev/null 2>&1
 echo "  [OK] All engine gates verified and ready."
 
 echo ""
 echo "=========================================================="
 echo "  Installation complete! Process Architect is ready."
-echo "  Open Antigravity and ask to diagram any SOP or workflow."
+echo "  Open Antigravity and ask to diagram any architecture or workflow."
 echo "=========================================================="
 echo ""

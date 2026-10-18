@@ -2,6 +2,7 @@ export const SKILL_ID = 'process-architect';
 export const EXPECTED_REPOSITORY = 'https://github.com/drengahmedadel-gov/antigravity-process-architect';
 export const DEFAULT_MANIFEST_URL = 'https://raw.githubusercontent.com/drengahmedadel-gov/antigravity-process-architect/main/process-architect/skill-release.json';
 
+
 const CONTROL_OR_BIDI = /[\u0000-\u001f\u007f-\u009f\u202a-\u202e\u2066-\u2069]/u;
 const HEX_40 = /^[a-f0-9]{40}$/;
 const HEX_64 = /^[a-f0-9]{64}$/;

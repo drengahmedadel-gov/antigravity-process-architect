@@ -1,10 +1,11 @@
 {
   "schemaVersion": 1,
-  "skillId": "archify",
+  "skillId": "process-architect",
   "channel": "stable",
-  "version": "3.1.0",
+  "version": "1.0.0",
   "source": {
-    "repository": "https://github.com/tt-a1i/archify"
+    "repository": "https://github.com/drengahmedadel-gov/antigravity-process-architect"
   },
-  "updateManifestUrl": "https://tt-a1i.github.io/archify/skill-updates/archify/stable.json"
+  "updateManifestUrl": "https://raw.githubusercontent.com/drengahmedadel-gov/antigravity-process-architect/main/process-architect/skill-release.json"
 }
+

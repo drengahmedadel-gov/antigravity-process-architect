@@ -71,7 +71,7 @@ try {
 
 # 4. Run Doctor verification
 Write-Host "[4/4] التحقق من سلامة المحرك وبوابات الجودة..." -ForegroundColor White
-$doctorScript = Join-Path $skillDir "bin\archify.mjs"
+$doctorScript = Join-Path $skillDir "bin\process-architect.mjs"
 try {
     $doctorOutput = node $doctorScript doctor
     Write-Host "  [OK] كافة مكونات المحرك وبوابات الجودة مفحوصة وجاهزة بنسبة 100%." -ForegroundColor Green
@@ -83,6 +83,6 @@ Write-Host ""
 Write-Host "==========================================================" -ForegroundColor Green
 Write-Host "  مبروك! تم تثبيت Process Architect بنجاح على Antigravity." -ForegroundColor Green
 Write-Host "  يمكنك الآن فتح Antigravity وكتابة:" -ForegroundColor White
-Write-Host "  'ارسم لي إجراء عمل SOP تفاعلي لـ ...' أو 'حلل هذا العقد بصرياً'" -ForegroundColor Cyan
+Write-Host "  'ارسم لي معمارية النظام / مسار العمل التفاعلي لـ ...'" -ForegroundColor Cyan
 Write-Host "==========================================================" -ForegroundColor Green
 Write-Host ""
