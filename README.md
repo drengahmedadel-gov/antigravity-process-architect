@@ -1,15 +1,20 @@
 <p align="center">
+  <img src="docs/assets/brand-banner.png" alt="Ahmed Adel - Engineering Governance into Scalable Growth" width="100%" style="border-radius: 8px;" />
+</p>
+
+<p align="center">
   <h1 align="center">📐 Antigravity Process Architect</h1>
   <h3 align="center">The Universal Visual Architecture & Workflow Engine for Google Antigravity</h3>
+  <p align="center"><strong>ENGINEERING GOVERNANCE INTO SCALABLE GROWTH</strong></p>
   <p align="center"><em>المحرك البصري الشامل للأنظمة المعمارية ومسارات العمل — حوّل أي فكرة، معمارية برمجية، بنية تحتية سحابية، أو مسار تنفيذي إلى مخططات تفاعلية حية بدون كتابة كود.</em></p>
 </p>
 
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat-square" alt="MIT License" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Antigravity-Universal%20Skill-007ACC?style=flat-square&logo=google" alt="Antigravity Universal Skill" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Engine-Interactive%20HTML%2BSVG-blueviolet?style=flat-square" alt="Interactive Engine" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Cross--Platform-Windows%20%7C%20Mac%20%7C%20Linux-blue?style=flat-square" alt="Cross Platform" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Language-Arabic%20(RTL)%20%26%20English-orange?style=flat-square" alt="Bilingual RTL" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-0D9488?style=flat-square" alt="MIT License" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Antigravity-Universal%20Skill-0A192F?style=flat-square&logo=google" alt="Antigravity Universal Skill" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Architecture-Interactive%20HTML%2BSVG-0D9488?style=flat-square" alt="Interactive Engine" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Cross--Platform-Windows%20%7C%20Mac%20%7C%20Linux-0A192F?style=flat-square" alt="Cross Platform" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Design%20System-Native%20RTL%20Arabic-0D9488?style=flat-square" alt="Bilingual RTL" /></a>
 </p>
 
 ---
@@ -22,8 +27,8 @@
 
 **Process Architect** هو المحرك البصري الشامل لبيئة **Google Antigravity** الذي ينقل التوثيق وتصميم الأنظمة إلى عصر الوكلاء الأذكياء:
 
-1. **شامل وعام (Universal):** لا يقتصر على مجال واحد؛ بل يرسم أي معمارية برمجية (Microservices/APIs)، بنية تحتية سحابية (AWS/GCP/Azure)، قواعد بيانات (ERD)، خطوط بيانات (ETL Pipelines)، أو مسارات عمل إجرائية وإدارية.
-2. **تفاعلي ومستقل بالكامل (Interactive Standalone HTML):** ينتج ملفات HTML تفاعلية مدمجة تحوي كود SVG النقي، تدعم التكبير (Zoom/Pan)، تدفق الإشارات التفاعلي (Live Signal Flow)، عزل المسارات (Route Tracing)، والتبديل بين المظهرين الليلي والنهاري.
+1. **شامل وعام (Universal Architecture):** لا يقتصر على مجال واحد؛ بل يرسم أي معمارية برمجية (Microservices/APIs)، بنية تحتية سحابية (AWS/GCP/Azure)، قواعد بيانات (ERD)، خطوط بيانات (ETL Pipelines)، أو مسارات عمل إجرائية وإدارية.
+2. **تفاعلي ومستقل بالكامل (Interactive Standalone HTML):** ينتج ملفات HTML تفاعلية مدمجة تحوي كود SVG النقي، تدعم التكبير (Zoom/Pan)، تدفق الإشارات التفاعلي (Live Signal Flow)، عزل المسارات (Route Tracing)، والتبديل الفوري بين المظهرين الليلي والنهاري.
 3. **تدقيق معماري صارم (Architectural Linter):** يمر كل مخطط عبر 4 بوابات فحص هندسية تمنع تداخل الخطوط، تضمن تناسق المسافات، وتصحح مسارات التدفق آلياً.
 4. **أمان مؤسسي كامل (100% Offline & Corporate-Safe):** يعمل المحرك محلياً بالكامل على جهازك دون إرسال أي أسرار معمارية أو بيانات مؤسسية خارج بيئة عملك.
 
@@ -108,19 +113,35 @@ curl -fsSL https://raw.githubusercontent.com/drengahmedadel-gov/antigravity-proc
 
 ---
 
-## 👨‍💻 عن المطور والخدمات الاستشارية (About the Creator & Consulting)
+## 👨‍💻 عن المطور والخدمات الاستشارية (About Ahmed Adel)
 
-تم تطوير وابتكار هذه المهارة بواسطة:
+<div align="center">
+  <table border="0" style="border: none; background: transparent;">
+    <tr>
+      <td width="130" align="center" valign="middle" style="border: none;">
+        <img src="docs/assets/logo-dark.jpg" alt="Ahmed Adel Monogram" width="110" style="border-radius: 14px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" />
+      </td>
+      <td valign="middle" style="border: none; padding-right: 20px;">
+        <h2 style="margin: 0; color: #0D9488;">د.م. أحمد عادل | Dr. Eng. Ahmed Adel</h2>
+        <p style="margin: 4px 0; font-size: 14px; letter-spacing: 1px; color: #0A192F;"><strong>ENGINEERING GOVERNANCE INTO SCALABLE GROWTH</strong></p>
+        <p style="margin: 2px 0; font-size: 13px; color: #475569;">
+          <strong>GOVERNANCE</strong> &nbsp;•&nbsp; <strong>PMO</strong> &nbsp;•&nbsp; <strong>ENGINEERING ENTREPRENEURSHIP</strong> &nbsp;•&nbsp; <strong>DIGITAL TRANSFORMATION</strong>
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
 
-### **د.م. أحمد عادل (Dr.PMO)**
-**استشاري إدارة المشاريع، حوكمة وتأسيس الشركات، وتمكين الذكاء الاصطناعي**
+### الركائز الاستشارية والمهنية الأربع:
 
-خبير استشاري يجمع بين العمق الهندسي والخبرة المؤسسية الممتدة في قيادة التحول وإدارة المشاريع المعقدة وتأسيس الشركات:
-
-- 🏢 **استشارات تأسيس وتطوير الشركات (Venture Building & Business Structuring):** مساعدة رواد الأعمال والشركات الناشئة والمجموعات الاستثمارية في هيكلة الكيانات الجديدة، بناء نماذج التشغيل، ووضع أطر الحوكمة الإدارية والمالية.
-- 📊 **بناء وتأسيس مكاتب إدارة المشاريع (PMO Setup & Governance):** تصميم وتفعيل مكاتب الـ PMO المؤسسية والتشغيلية وفق أعلى المعايير الدولية، وإدارة المحافظ والمشاريع الاستراتيجية الكبرى.
-- 🤖 **تمكين الذكاء الاصطناعي وأتمتة العمليات (AI Enablement & Intelligent Automation):** مساعدة المؤسسات في تبني تقنيات الذكاء الاصطناعي التوليدي والوكلاء الأذكياء (Autonomous Agents) ودمجها في العمليات اليومية لرفع الإنتاجية وخفض تكاليف التشغيل.
-- 📋 **هندسة الإجراءات والتوثيق ككود (Docs-as-Code & Process Engineering):** تطوير وميكنة أدلة إجراءات العمل القياسية (SOPs) ومصفوفات الامتثال والمخاطر.
+1. **🏛️ الحوكمة المؤسسية والرقابية (Governance):**
+   - تصميم وتطبيق أطر الحوكمة الرصينة، مصفوفات الصلاحيات (Delegation of Authority)، وإدارة الامتثال والمخاطر المؤسسية.
+2. **📊 مكاتب إدارة المشاريع (PMO Setup & Strategic Execution):**
+   - تأسيس وتطوير مكاتب إدارة المشاريع المؤسسية (EPMO/PMO) لربط الاستراتيجيات بالمشاريع التنفيذية وفق أعلى المعايير الدولية.
+3. **🏢 ريادة الأعمال الهندسية وتأسيس الشركات (Engineering Entrepreneurship & Venture Building):**
+   - استشارات تأسيس وهيكلة الكيانات الجديدة والشركات الناشئة، وبناء نماذج التشغيل القابلة للتوسع (Scalable Business Models).
+4. **🤖 التحول الرقمي وتمكين الذكاء الاصطناعي (Digital Transformation & AI Enablement):**
+   - ميكنة وأتمتة العمليات اليومية، ودمج وكلاء الذكاء الاصطناعي المتقدمة (Autonomous AI Agents) والـ Docs-as-Code في صلب البنية التشغيلية للمؤسسات.
 
 ---
 
@@ -128,13 +149,13 @@ curl -fsSL https://raw.githubusercontent.com/drengahmedadel-gov/antigravity-proc
 
 <p align="right">
   <a href="https://www.linkedin.com/in/engineerahmedadel" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect%20with%20Dr.%20Ahmed%20Adel-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile" />
   </a>
   <a href="https://wa.me/201065310008" target="_blank">
-    <img src="https://img.shields.io/badge/WhatsApp-Chat%20Directly-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Direct" />
+    <img src="https://img.shields.io/badge/WhatsApp-Chat%20%2B201065310008-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Direct" />
   </a>
   <a href="tel:+201065310008">
-    <img src="https://img.shields.io/badge/Phone-%2B201065310008-333333?style=for-the-badge&logo=phone" alt="Phone Contact" />
+    <img src="https://img.shields.io/badge/Phone-Call%20Direct-0D9488?style=for-the-badge&logo=phone" alt="Phone Contact" />
   </a>
 </p>
 
@@ -155,9 +176,14 @@ curl -fsSL https://raw.githubusercontent.com/drengahmedadel-gov/antigravity-proc
 
 ## 🌐 English Overview (For Global Visitors)
 
+<p align="center">
+  <strong>ENGINEERING GOVERNANCE INTO SCALABLE GROWTH</strong><br/>
+  <em>GOVERNANCE • PMO • ENGINEERING ENTREPRENEURSHIP • DIGITAL TRANSFORMATION</em>
+</p>
+
 **Antigravity Process Architect** is the universal, enterprise-grade visual architecture and workflow engine built specifically for **Google Antigravity**.
 
-- **Universal Scope:** Supports 10 distinct architectural and operational models: Systems, Microservices, Cloud Networks, Workflows, Sequences, Dataflow Pipelines, Lifecycles, ERD Database Schemas, Class Diagrams, Timelines, and Waterfall Latencies.
+- **Universal Scope:** Supports 10 distinct architectural models: Systems, Microservices, Cloud Networks, Workflows, Sequences, Dataflow Pipelines, Lifecycles, ERD Database Schemas, Class Diagrams, Timelines, and Waterfall Latencies.
 - **Interactive Standalone HTML:** Produces self-contained interactive files featuring live signal flow animations, route tracing, reach isolation, dark/light modes, and SVG/PNG/WebM exports.
 - **Mandatory 3-Pillar Response:** Every generated diagram includes:
   1. *Interactive Controls Guide* (How to explore and control the visual).
@@ -176,4 +202,4 @@ curl -fsSL https://raw.githubusercontent.com/drengahmedadel-gov/antigravity-proc
   ```
 
 ---
-*Created and maintained by **Dr. Eng. Ahmed Adel (Dr.PMO)** — Consultant in Venture Building, PMO Setup, and Enterprise AI Enablement.*
+*Created and maintained by **Dr. Eng. Ahmed Adel (Dr.PMO)** — Consultant in Governance, PMO Setup, Engineering Entrepreneurship, and Digital Transformation.*
