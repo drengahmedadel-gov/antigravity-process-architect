@@ -17,3 +17,9 @@ node_modules/
 # Environment Variables & Keys
 .env
 .env.*
+
+# Generated Artifacts & Rendered Examples
+process-architect/examples/*.html
+*.visual-check.html
+*.visual-check.*.png
+

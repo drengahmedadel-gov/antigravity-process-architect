@@ -17,11 +17,17 @@ Write-Host "  Developed by: Dr. Eng. Ahmed Adel (Dr.PMO)               " -Foregr
 Write-Host "==========================================================" -ForegroundColor Cyan
 Write-Host ""
 
-# 1. Check Node.js prerequisite
-Write-Host "[1/4] فحص بيئة التشغيل (Checking Node.js)..." -ForegroundColor White
+# 1. Check Node.js prerequisite (>= 18)
+Write-Host "[1/4] فحص بيئة التشغيل (Checking Node.js >= 18)..." -ForegroundColor White
 try {
-    $nodeVersion = node -v
-    Write-Host "  [OK] تم العثور على Node.js: $nodeVersion" -ForegroundColor Green
+    $nodeVersion = (node -v).Trim()
+    $majorVersion = [int]($nodeVersion.TrimStart('v').Split('.')[0])
+    if ($majorVersion -lt 18) {
+        Write-Host "  [ERROR] إصدار Node.js الحالي ($nodeVersion) قديم. يتطلب المحرك الإصدار 18 أو أحدث." -ForegroundColor Red
+        Write-Host "  يرجى تحديث Node.js من الرابط: https://nodejs.org/" -ForegroundColor Yellow
+        exit 1
+    }
+    Write-Host "  [OK] تم العثور على Node.js متوافق: $nodeVersion" -ForegroundColor Green
 } catch {
     Write-Host "  [ERROR] لم يتم العثور على Node.js مثبت على جهازك!" -ForegroundColor Red
     Write-Host "  يرجى تنزيل وتثبيت Node.js (الإصدار 18 أو أحدث) من الرابط: https://nodejs.org/" -ForegroundColor Yellow
@@ -46,19 +52,15 @@ $tempZip = Join-Path $env:TEMP "antigravity-process-architect.zip"
 $tempExtract = Join-Path $env:TEMP "antigravity-process-architect-extract"
 
 try {
-    # Download zip archive
     $zipUrl = "$repoUrl/archive/refs/heads/main.zip"
     Invoke-WebRequest -Uri $zipUrl -OutFile $tempZip -UseBasicParsing
     
-    # Extract
     if (Test-Path $tempExtract) { Remove-Item -Path $tempExtract -Recurse -Force }
     Expand-Archive -Path $tempZip -DestinationPath $tempExtract -Force
     
-    # Copy process-architect directory
     $extractedFolder = Join-Path $tempExtract "antigravity-process-architect-main\process-architect"
     Copy-Item -Path "$extractedFolder\*" -Destination $skillDir -Recurse -Force
     
-    # Cleanup
     Remove-Item -Path $tempZip -Force -ErrorAction SilentlyContinue
     Remove-Item -Path $tempExtract -Recurse -Force -ErrorAction SilentlyContinue
     Write-Host "  [OK] تم تثبيت الملفات بنجاح." -ForegroundColor Green
@@ -69,7 +71,7 @@ try {
 
 # 4. Run Doctor verification
 Write-Host "[4/4] التحقق من سلامة المحرك وبوابات الجودة..." -ForegroundColor White
-$doctorScript = Join-Path $skillDir "bin\archify.mjs"
+$doctorScript = Join-Path $skillDir "bin\process-architect.mjs"
 try {
     $doctorOutput = node $doctorScript doctor
     Write-Host "  [OK] كافة مكونات المحرك وبوابات الجودة مفحوصة وجاهزة بنسبة 100%." -ForegroundColor Green
@@ -81,6 +83,6 @@ Write-Host ""
 Write-Host "==========================================================" -ForegroundColor Green
 Write-Host "  مبروك! تم تثبيت Process Architect بنجاح على Antigravity." -ForegroundColor Green
 Write-Host "  يمكنك الآن فتح Antigravity وكتابة:" -ForegroundColor White
-Write-Host "  'ارسم لي إجراء عمل SOP تفاعلي لـ ...' أو 'حلل هذا العقد بصرياً'" -ForegroundColor Cyan
+Write-Host "  'ارسم لي معمارية النظام / مسار العمل التفاعلي لـ ...'" -ForegroundColor Cyan
 Write-Host "==========================================================" -ForegroundColor Green
 Write-Host ""

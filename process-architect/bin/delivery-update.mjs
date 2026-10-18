@@ -48,6 +48,9 @@ function normalize(result) {
 export function startDeliveryUpdateCheck({
   env = process.env, deadlineMs = DEADLINE_MS, checkerPath = childPath,
 } = {}) {
+  // Default to offline-first mode (no external network pings during diagram delivery)
+  // Can be opted-in by setting PROCESS_ARCHITECT_ENABLE_UPDATE_CHECK=1
+  if (env.PROCESS_ARCHITECT_ENABLE_UPDATE_CHECK !== '1') return Promise.resolve(unavailable('offline-default'));
   if (env.ARCHIFY_UPDATE_CHECK_DISABLED === '1') return Promise.resolve(unavailable('disabled'));
   return new Promise((resolve) => {
     let child;

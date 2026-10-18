@@ -15,16 +15,23 @@ Create interactive standalone HTML diagrams from natural language, system descri
 
 ## Antigravity Environment & CLI Location
 
-The Process Architect engine is installed globally at:
-- **Default Path:** `~/.gemini/config/skills/process-architect/`
-- **CLI Path:** `~/.gemini/config/skills/process-architect/bin/archify.mjs`
+The Process Architect engine is installed globally inside the Antigravity configuration:
+- **Global Path:** `~/.gemini/config/skills/process-architect/`
+- **CLI Binary:** `~/.gemini/config/skills/process-architect/bin/process-architect.mjs` (or `archify.mjs`)
 - **Schemas:** `~/.gemini/config/skills/process-architect/schemas/`
 - **Examples:** `~/.gemini/config/skills/process-architect/examples/`
 - **References:** `~/.gemini/config/skills/process-architect/references/`
 
-Run commands via `run_command` in PowerShell / Bash:
+Run commands via `run_command` in PowerShell (Windows) or Bash (macOS/Linux):
+```powershell
+# Windows PowerShell (Universal Dynamic Resolution):
+$skillDir = if (Test-Path "$HOME\.gemini\config\skills\process-architect") { "$HOME\.gemini\config\skills\process-architect" } else { (Get-Item "SKILL.md").Directory.FullName }
+node "$skillDir\bin\process-architect.mjs" finalize <type> <candidate.json> <output.html> --quality showcase --json
+```
 ```bash
-node "<skill-path>/bin/archify.mjs" finalize <type> <candidate.json> <output.html> --quality showcase --json
+# macOS / Linux (Bash):
+SKILL_DIR="${HOME}/.gemini/config/skills/process-architect"
+node "${SKILL_DIR}/bin/process-architect.mjs" finalize <type> <candidate.json> <output.html> --quality showcase --json
 ```
 
 ### Destination Folder Rules
@@ -53,7 +60,7 @@ node "<skill-path>/bin/archify.mjs" finalize <type> <candidate.json> <output.htm
 
 When ambiguous, run:
 ```powershell
-node "$env:USERPROFILE\.gemini\config\skills\process-architect\bin\archify.mjs" guide "<scenario>" --json
+node "$HOME\.gemini\config\skills\process-architect\bin\process-architect.mjs" guide "<scenario>" --json
 ```
 
 ---
@@ -90,7 +97,7 @@ Archify supports full UTF-8 text in SVG and HTML viewer:
    - For `boundaries`, only use allowed enum kinds (e.g. `"region"`, `"security-group"` for architecture).
 4. **Compile & Finalize**: Run `finalize` via `run_command`:
    ```powershell
-   node "$env:USERPROFILE\.gemini\config\skills\process-architect\bin\archify.mjs" finalize <type> <candidate.json> <output.html> --quality showcase --json
+   node "$HOME\.gemini\config\skills\process-architect\bin\process-architect.mjs" finalize <type> <candidate.json> <output.html> --quality showcase --json
    ```
 5. **Handle Diagnostics (Repair Loop)**:
    - If exit code is 0: all automated gates (`validate`, `deliver`, `check`, `browser-check`) passed!
@@ -98,7 +105,7 @@ Archify supports full UTF-8 text in SVG and HTML viewer:
 6. **Visual Capture (التقاط الصور المرئية)**:
    بمجرد نجاح `finalize`، قم دائماً بتشغيل أمر الفحص البصري لتوليد اللقطات عالية الدقة للوضعين النهاري والليلي:
    ```powershell
-   node "$env:USERPROFILE\.gemini\config\skills\process-architect\bin\archify.mjs" visual-check <output.html> --json
+   node "$HOME\.gemini\config\skills\process-architect\bin\process-architect.mjs" visual-check <output.html> --json
    ```
    انسخ اللقطات إلى مجلد الأرتفاكتس للمحادثة `<appDataDir>\brain\<conversation-id>\`.
 
