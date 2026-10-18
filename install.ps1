@@ -1,7 +1,12 @@
-# =====================================================================
+﻿# =====================================================================
 # Antigravity Process Architect - One-Click Installer (Windows)
 # Developed by: Dr. Eng. Ahmed Adel (Dr.PMO)
 # =====================================================================
+
+# Fix UTF-8 encoding for Arabic text display in PowerShell
+try { [Console]::OutputEncoding = [System.Text.Encoding]::UTF8 } catch {}
+try { $OutputEncoding = [System.Text.Encoding]::UTF8 } catch {}
+chcp 65001 2>&1 | Out-Null
 
 $ErrorActionPreference = "Stop"
 

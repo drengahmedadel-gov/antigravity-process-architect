@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+﻿#!/usr/bin/env bash
 # =====================================================================
 # Antigravity Process Architect - One-Click Installer (macOS / Linux)
 # Developed by: Dr. Eng. Ahmed Adel (Dr.PMO)

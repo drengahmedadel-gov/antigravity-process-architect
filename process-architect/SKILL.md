@@ -1,4 +1,4 @@
----
+﻿---
 name: process-architect
 description: "The Universal Visual Architecture & Workflow Engine for Google Antigravity: Create validated, boardroom-ready interactive visual diagrams for software architectures, microservices, cloud infrastructure, data pipelines, database ERDs, workflows, lifecycles, and business processes without writing code. Produces explorable standalone HTML with inline SVG, dark/light themes, live signal flow motion, and vector exports. Automatically provides a mandatory 3-pillar response: interactive controls guide, detailed architectural breakdown, and visual indicators matrix."
 license: MIT
@@ -53,7 +53,7 @@ node "<skill-path>/bin/archify.mjs" finalize <type> <candidate.json> <output.htm
 
 When ambiguous, run:
 ```powershell
-node "C:\Users\engia\.gemini\config\skills\archify\bin\archify.mjs" guide "<scenario>" --json
+node "$env:USERPROFILE\.gemini\config\skills\process-architect\bin\archify.mjs" guide "<scenario>" --json
 ```
 
 ---
@@ -90,7 +90,7 @@ Archify supports full UTF-8 text in SVG and HTML viewer:
    - For `boundaries`, only use allowed enum kinds (e.g. `"region"`, `"security-group"` for architecture).
 4. **Compile & Finalize**: Run `finalize` via `run_command`:
    ```powershell
-   node "C:\Users\engia\.gemini\config\skills\archify\bin\archify.mjs" finalize <type> <candidate.json> <output.html> --quality showcase --json
+   node "$env:USERPROFILE\.gemini\config\skills\process-architect\bin\archify.mjs" finalize <type> <candidate.json> <output.html> --quality showcase --json
    ```
 5. **Handle Diagnostics (Repair Loop)**:
    - If exit code is 0: all automated gates (`validate`, `deliver`, `check`, `browser-check`) passed!
@@ -98,7 +98,7 @@ Archify supports full UTF-8 text in SVG and HTML viewer:
 6. **Visual Capture (التقاط الصور المرئية)**:
    بمجرد نجاح `finalize`، قم دائماً بتشغيل أمر الفحص البصري لتوليد اللقطات عالية الدقة للوضعين النهاري والليلي:
    ```powershell
-   node "C:\Users\engia\.gemini\config\skills\archify\bin\archify.mjs" visual-check <output.html> --json
+   node "$env:USERPROFILE\.gemini\config\skills\process-architect\bin\archify.mjs" visual-check <output.html> --json
    ```
    انسخ اللقطات إلى مجلد الأرتفاكتس للمحادثة `<appDataDir>\brain\<conversation-id>\`.
 
