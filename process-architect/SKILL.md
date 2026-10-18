@@ -1,6 +1,6 @@
 ---
 name: process-architect
-description: "Process Architect for Google Antigravity: Create validated, boardroom-ready interactive visual diagrams for Standard Operating Procedures (SOPs), governance policies, contract review pipelines, dataflow, workflows, and system architectures without writing code. Produces explorable standalone HTML with inline SVG, dark/light themes, live motion, and vector exports. Automatically provides a 3-pillar response: interactive controls guide, detailed output understanding, and visual indicators matrix."
+description: "The Universal Visual Architecture & Workflow Engine for Google Antigravity: Create validated, boardroom-ready interactive visual diagrams for software architectures, microservices, cloud infrastructure, data pipelines, database ERDs, workflows, lifecycles, and business processes without writing code. Produces explorable standalone HTML with inline SVG, dark/light themes, live signal flow motion, and vector exports. Automatically provides a mandatory 3-pillar response: interactive controls guide, detailed architectural breakdown, and visual indicators matrix."
 license: MIT
 metadata:
   version: "1.0.0"
@@ -11,7 +11,7 @@ metadata:
 
 # Process Architect for Google Antigravity
 
-Create interactive standalone HTML diagrams from natural language, SOPs, governance frameworks, or typed JSON.
+Create interactive standalone HTML diagrams from natural language, system descriptions, Mermaid code, or typed JSON.
 
 ## Antigravity Environment & CLI Location
 
