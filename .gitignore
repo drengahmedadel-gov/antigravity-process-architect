@@ -1,0 +1,19 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Logs and Scratch
+*.log
+scratch/
+test-demo/
+tmp/
+.archify/
+
+# Node & Editor
+node_modules/
+.vscode/
+.idea/
+
+# Environment Variables & Keys
+.env
+.env.*
