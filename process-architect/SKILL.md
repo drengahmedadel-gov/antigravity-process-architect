@@ -1,4 +1,4 @@
----
+﻿---
 name: process-architect
 description: "The Universal Visual Architecture & Workflow Engine for Google Antigravity: Create validated, boardroom-ready interactive visual diagrams for software architectures, microservices, cloud infrastructure, data pipelines, database ERDs, workflows, lifecycles, and business processes without writing code. Produces explorable standalone HTML with inline SVG, dark/light themes, live signal flow motion, and vector exports. Automatically provides a mandatory 3-pillar response: interactive controls guide, detailed architectural breakdown, and visual indicators matrix."
 license: MIT
